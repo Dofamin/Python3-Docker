@@ -2,7 +2,7 @@
 FROM ubuntu:latest
 # Set version label
 LABEL maintainer="github.com/Dofamin"
-LABEL image="AlfaPeople-Tg-Bot"
+LABEL image="Python3"
 LABEL OS="Ubuntu/latest"
 # ARG & ENV
 COPY container-image-root/ /
