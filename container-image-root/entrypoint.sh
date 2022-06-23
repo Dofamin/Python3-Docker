@@ -1,6 +1,4 @@
 #!/bin/bash
 set -x
-cd /srv || exit
-ls
-pip install -r requirements.txt
-python3 main.py
+pip install -r /srv/requirements.txt
+python3 /srv/main.py
