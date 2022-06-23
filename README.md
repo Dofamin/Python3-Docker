@@ -40,4 +40,3 @@ docker create \
 docker start Python3_Docker
 
 ```
-
