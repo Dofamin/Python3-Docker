@@ -13,7 +13,7 @@ RUN apt -y update > /dev/null 2>&1;\
     ln -fs /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone > /dev/null 2>&1;\
     dpkg-reconfigure --frontend noninteractive tzdata > /dev/null 2>&1;\
 # Install dependencies, you would need common set of tools.
-    apt -y install curl wget ntp logrotate cron python3 build-essential > /dev/null 2>&1;\
+    apt -y install curl wget ntp logrotate cron python3 build-essential python3-pip > /dev/null 2>&1;\
 # Cleanup
     apt-get clean > /dev/null 2>&1;
 # CMD
