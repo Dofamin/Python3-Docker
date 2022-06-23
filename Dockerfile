@@ -17,4 +17,4 @@ RUN apt -y update > /dev/null 2>&1;\
 # Cleanup
     apt-get clean > /dev/null 2>&1;
 # ENTRYPOINT
-ENTRYPOINT ["/bin/bash", "/entrypoint.sh", "$1"]
+ENTRYPOINT ["/bin/bash", "/entrypoint.sh", $1]
